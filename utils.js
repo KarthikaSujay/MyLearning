@@ -1,0 +1,5 @@
+const names= require('./firstmodule')
+const sayHi=require("./modules")
+require('./module2')
+sayHi(names.john)
+sayHi("renu")
